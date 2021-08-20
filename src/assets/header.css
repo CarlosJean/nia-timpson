@@ -1,0 +1,26 @@
+.btn {
+	background-color: #f6911c;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 30px 10px 30px;
+	color: white;
+}
+
+header ul {
+	list-style: none;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+header li {
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.vertical-border {
+	border-width: 0px 1px 0px 1px;
+	border-color: gray;
+	border-style: solid;
+}
