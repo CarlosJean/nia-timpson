@@ -11,15 +11,15 @@ import { Images } from './components/Images';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container pl-20 pr-20 lg:pl-60 lg:pr-60">
       <Header/>
       <Guild/>
       <Images/>
       <Credits />
       <AgentContactinfo/>
-      {/*<MediaPressLinks/>
+      <MediaPressLinks/>
       <About/>
-      <Education /> */}
+      <Education />
     </div>
   )
 }
