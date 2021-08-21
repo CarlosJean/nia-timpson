@@ -1,23 +1,26 @@
 /* import logo from './logo.svg'; */
 import './App.css';
 import Header from "./components/Header";
-import './assets/header.css';
 import Credits from './components/Credits';
 import { AgentContactinfo } from './components/AgentContactInfo';
 import { MediaPressLinks } from './components/MediaPressLinks';
 import { About } from './components/About';
 import { Education } from './components/Education';
+import Guild from './components/Guild';
+import { Images } from './components/Images';
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="container">
+      <Header/>
+      <Guild/>
+      <Images/>
       <Credits />
       <AgentContactinfo/>
-      <MediaPressLinks/>
+      {/*<MediaPressLinks/>
       <About/>
-      <Education />
-    </>
+      <Education /> */}
+    </div>
   )
 }
 
