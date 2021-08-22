@@ -11,7 +11,7 @@ import { Images } from './components/Images';
 
 function App() {
   return (
-    <div className="container pl-20 pr-20 lg:pl-60 lg:pr-60">
+    <div className="h-full pl-8 pr-8 xl:pl-20 xl:pr-20">
       <Header/>
       <Guild/>
       <Images/>
